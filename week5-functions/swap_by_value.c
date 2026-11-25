@@ -19,7 +19,8 @@ printf(" Inside function - Before reference: a = %d, b = %d\n", *a, *b);
 // Declare a temporary variable to hold 'a'
 int temp = *a;
 
-// Assign the value of 'b' to 'a'*a = *b;
+// Assign the value of 'b' to 'a'
+*a = *b;
 
 // Assign the value of 'temp' (original a) to 'b'
 *b = temp;

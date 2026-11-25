@@ -19,7 +19,7 @@ int main() {
     for (int i=0;i<5;i++){
         //*ptr means "dereference"-go to the address stores in ptr and get the value.
         //On the first iteration, this print 10.
-        cout<<"Value:"<<*ptr<<endl;
+        cout<<"Value: "<<*ptr<<endl;
         //Arithmetic:ptr++ increments the pointer.
         //Because the ptr is an int pointer,it increases the memory address by 4 bytes
         //(the size of an int),moving it to the next element in the array.
@@ -27,12 +27,12 @@ int main() {
     }
     //Reset the pointer back to the start of the array
     ptr=numbers;
-    cout<<"/nAccessing using offset arithmetic:"<<endl;
+    cout<<"\nAccessing using offset arithmetic:"<<endl;
     //Another way to use pointer arithmetic:(ptr + i)
     for (int i=0;i<5;i++){
         //*(ptr + i)is exactly the same as numbers[i]
         //It takes the base address (ptr)and jumps forward by i integers.
-        cout<<"Index"<<i<<"has value"<<*(ptr + i)<<endl;
+        cout<<"Index "<<i<<" has value "<<*(ptr + i)<<endl;
     }
     return 0;
 

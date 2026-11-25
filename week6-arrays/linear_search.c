@@ -45,7 +45,6 @@ printf("%d ", numbers[i]);
 }
 printf("\n");
 
-Page 3 of 16
 // Ask the user to enter a number to search for
 printf("Enter a number to search: ");
 // scanf requires the address-of operator (&) for integers

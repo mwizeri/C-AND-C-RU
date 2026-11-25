@@ -20,9 +20,9 @@ int main() {
     //MOFICATION 1--
     //Changing the value via ptr1 changes the original variable.
     *ptr1=200;
-    printf("\n---After setting *ptr1=200---\\n");
+    printf("\n---After setting *ptr1=200---\n");
     printf("originalValue: %d\n",originalValue);//Expected:200
-    printf("Value via ptr2: %d\n, *ptr2");//Expected:200
+    printf("Value via ptr2: %d\n", *ptr2);//Expected:200
 
     //Modification 2--
     //Changing the value via ptr2 also changes the original variable

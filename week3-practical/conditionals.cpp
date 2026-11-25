@@ -18,7 +18,7 @@ int main() {
 
  // Eligible if: age >= 18 AND has ticket AND NOT banned  // OR: is a member AND NOT banned
  bool canEnter = (age >= 18 && hasTicket && !isBanned) ||  
- (isMember && !isBanned) || (age<16 && hasParent); 
+ (isMember && !isBanned) || (age<16 && hasParent && !isBanned); 
   
  if (canEnter) { 
  cout << "You can enter the event!" << endl; 

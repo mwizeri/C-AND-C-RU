@@ -40,7 +40,7 @@ class DynamicArray {
             //e.Update our pointer and capacity to use the new array
             data=newData;
             capacity=newCapacity;
-            cout<<"[Resized capacity from"<<capacity/2<<"to"<<capacity<<"]"<<endl;
+            cout<<"[Resized capacity from "<<capacity/2<< "to" <<capacity<<"]"<<endl;
         }
         //2.Add the new value at the next available slot
         data[size]=value;
@@ -50,7 +50,7 @@ class DynamicArray {
     void display() {
         cout<<"Array(Size:"<<size<<",Capacity:"<<capacity<<"):";
         for (int i=0;i<size;i++){
-            cout<<data[i]<<"";
+            cout<<data[i]<<" ";
 
         }
         cout<<endl;

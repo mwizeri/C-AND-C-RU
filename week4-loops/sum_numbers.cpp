@@ -22,8 +22,7 @@ int main() {
     //Read the user's input and store it in the variable n
     cin >> n;
     
-    //Start a for loop with three parts se
-    parated by semicolons:
+    //Start a for loop with three parts separated by semicolons:
     //Part 1:int i=1; ->Initialisation: start counting from 1
     //Part 2:i<=n; ->Condition: continue while i is less than or equal to n
     //Part 3:i++; ->Increment: increase i by 1 after each iteration

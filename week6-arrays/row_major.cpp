@@ -12,8 +12,8 @@ int main(){
     };
     //Display the array in row-major order(row by row)
     cout<<"Column-major traversal(row by row):"<<endl;
-    for (int col=0;col<3;col++){
-    for (int row=0; row<4;row++){
+    for (int row=0;row<3;row++){
+    for (int col=0; col<4;col++){
         cout<<matrix[row][col]<<" ";
     }
     cout<<endl;

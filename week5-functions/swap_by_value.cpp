@@ -13,7 +13,7 @@ using namespace std;
 //-----------------------------------
 void swapByReference(int &a, int &b){
     //Display the value inside the function before swapping
-    cout<<"Inside function- Before swap:a=<<"<<a<<",b="<<b<<endl;
+    cout<<"Inside function- Before swap: a=<<"<<a<<", b="<<b<<endl;
     //Declare a temporary variable to hold the value of a
     int temp=a;
     //Assign the value of b to a
@@ -21,7 +21,7 @@ void swapByReference(int &a, int &b){
     //Assign the value of temp to b
     b=temp;
     //Display the value inside the function after swapping
-    cout<<"Inside function- After swap:a=<<"<<a<<",b="<<b<<endl;
+    cout<<"Inside function- After swap: a=<<"<<a<<",b="<<b<<endl;
     //The function ends here.The original variables are NOT changed
 }
 //The main function-where the program starts

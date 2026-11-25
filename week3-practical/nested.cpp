@@ -1,6 +1,9 @@
 #include <iostream> 
 using namespace std; 
 int main() { 
+int a,b,c;
+cout<<"Enter a, b, c: ";
+cin>>a>>b>>c;
  if (a>b && b>c) cout<<"Path 1";
  else if (a>b && a>c) cout<<"Path 2";
  else if(a>b)cout<<"Path 3";
